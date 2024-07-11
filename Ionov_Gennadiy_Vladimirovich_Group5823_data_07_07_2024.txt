@@ -1,0 +1,1005 @@
+  1  10
+
+    2  2
+
+    3  10
+
+    4  ыгвщ фзе гзвфеу
+
+    5  sudo apt update
+
+    6  sudo apt install mc
+
+    7  mc
+
+    8  sudo apt install openssh-server 
+
+    9  mc
+
+   10  exit
+
+   11  ip a
+
+   12  systemtcl status ssh
+
+   13  systemctl status ssh
+
+   14  ip a
+
+   15  sudo apt update
+
+   16  sudo apt install gcc make perl
+
+   17  sudo usermod -aG vboxsf plantator
+
+   18  uname
+
+   19  uname -a
+
+   20  hostnamectl
+
+   21  lsb_release -a
+
+   22  sudo apt update
+
+   23  sudo apt install mc
+
+   24  mc
+
+   25  mkdir students
+
+   26  mkdir mentors
+
+   27  /students
+
+   28  /home
+
+   29  cd ..
+
+   30  cd /students
+
+   31  cd /home/students
+
+   32  /home/plantator/students
+
+   33  cd /home/plantator/students
+
+   34  cat > students_list.txt
+
+   35  cd /home/plantator/mentors
+
+   36  echo > mentors_list.txt
+
+   37  nano mentors_list.txt
+
+   38  cd /home/plantator/students
+
+   39  pvd
+
+   40  pwd
+
+   41  mv /home/plantator/mentors mentors_list.txt > /students
+
+   42  mv /home/plantator/mentors mentors_list.txt  /students
+
+   43  mv /home/plantator/mentors mentors_list.txt  /students/
+
+   44  mv /home/plantator/mentors/mentors_list.txt  students/
+
+   45  cd ..
+
+   46  mv /home/plantator/mentors/mentors_list.txt  students/
+
+   47  rm -r mentors
+
+   48  mv students students_and_mentor
+
+   49  rm -r students_and_mentors
+
+   50  echo file1
+
+   51  nano file1
+
+   52  cp file1 file2
+
+   53  ln -s file1 file3
+
+   54  ls -li
+
+   55  ln file1 file4
+
+   56  ls -li
+
+   57  rm file1
+
+   58  more
+
+   59  more --help
+
+   60  more file2
+
+   61  more file3
+
+   62  more file4
+
+   63  mv file2 file_treski
+
+   64  mv file4 file_test
+
+   65  ln -s file file_treski
+
+   66  ln -s file_treski file
+
+   67  ln -s file_test file_file
+
+   68  mkdir gotovo
+
+   69  cd /home/plantator/gotovo
+
+   70  cd ..
+
+   71  mv /home/plantator/file /gotovo
+
+   72  mv /home/plantator/file gotovo
+
+   73  mv /home/plantator/file_file gotovo
+
+   74  ln -s /home/plantator/file_treski file
+
+   75  ls -li
+
+   76  cd /home/plantator/gotovo
+
+   77  ls -li
+
+   78  cd 
+
+   79  mv file file_g
+
+   80  mv file_g gotovo
+
+   81  cd /home/plantator/gotovo
+
+   82  ls -li
+
+   83  sudo  useradd -m -s /bin/bash user1
+
+   84  whoim
+
+   85  whoami
+
+   86  more /etc/passwd
+
+   87  userdel -fr user1
+
+   88  sudo userdel -fr user1
+
+   89  userdel -- help
+
+   90  userdel -- user1
+
+   91  more /etc/passwd
+
+   92  sudo groupadd dev_team
+
+   93  more /etc/passwd
+
+   94  more /etc/group
+
+   95  sudo userm,od -G dev_team user11
+
+   96  sudo usermod -G dev_team user11
+
+   97  sudo  useradd -m -s /bin/bash user11
+
+   98  sudo usermod -G dev_team user11
+
+   99  more /etc/passwd
+
+  100  more /etc/group
+
+  101  more /etc/groups
+
+  102  gpasswd -d user11 dev_team
+
+  103  sudo gpasswd -d user11 dev_team
+
+  104  sudo  useradd -m -s /bin/bash usertest
+
+  105  sudo usermod -G sudo usertest
+
+  106  nano/etc/apt/sources.list
+
+  107  nano /etc/apt/sources.list
+
+  108  apt-add-repository --help
+
+  109  sudo apt-get install Oracle MySQL
+
+  110  apt install wget -y
+
+  111  sudo apt install wget -y
+
+  112  clear
+
+  113  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+  114  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+  115  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+  116  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+  117  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+  118  sudo apt ubdate
+
+  119  sudo apt update
+
+  120  sudo apt install docker-ce
+
+  121  dpkg --help
+
+  122  docker pull nginx
+
+  123  sudo docker pull nginx
+
+  124  sudo snap install opera
+
+  125  sudo dpkg -i package.deb
+
+  126  apt download package deb
+
+  127  apt download package.deb
+
+  128  apt-get download package.deb
+
+  129  sudo dpkg -i opera.deb
+
+  130  snap find opera
+
+  131  snap download opera
+
+  132  sudo dpkg -i opera.deb
+
+  133  opera
+
+  134  sudo apt-get install zip
+
+  135  sudo apt-get remove zip
+
+  136  sudo apt-get install zip
+
+  137  dpkg -l | wc -l
+
+  138  apt download zip
+
+  139  ls
+
+  140  sudo dpkg 
+
+  141  sudo apt-get install zipsudo dpkg -r zip
+
+  142  sudo dpkg -r zip
+
+  143  zip --help
+
+  144  sudo systemctl start cron
+
+  145  crontab --help
+
+  146  crontab -e
+
+  147  crontab -l
+
+  148  nano logs.txt
+
+  149  crontab -l
+
+  150  nano logs.txt
+
+  151  crontab -l
+
+  152  sudo apt install iptables
+
+  153  ip a
+
+  154  sudo nano /etc/netplan/*.yaml
+
+  155  sudo netplan apply
+
+  156  sudo nano /etc/netplan/*.yaml
+
+  157  sudo netplan apply
+
+  158  sudo netplan try
+
+  159  sudo nano /etc/netplan/*.yaml
+
+  160  sudo netplan try
+
+  161  sudo nano /etc/netplan/*.yaml
+
+  162  sudo netplan try
+
+  163  sudo netplan apply
+
+  164  sudo nano /etc/netplan/*.yaml
+
+  165  sudo netplan apply
+
+  166  sudo nano /etc/netplan/*.yaml
+
+  167  sudo netplan apply
+
+  168  sudo nano /etc/netplan/*.yaml
+
+  169  sudo netplan apply
+
+  170  sudo nano /etc/netplan/*.yaml
+
+  171  sudo netplan apply
+
+  172  sudo nano /etc/netplan/*.yaml
+
+  173  sudo netplan apply
+
+  174  sudo nano /etc/netplan/*.yaml
+
+  175  netplan try
+
+  176  sudo nano /etc/netplan/*.yaml
+
+  177  netplan try
+
+  178  sudo nano /etc/netplan/*.yaml
+
+  179  netplan try
+
+  180  sudo nano /etc/netplan/*.yaml
+
+  181  netplan try
+
+  182  sudo nano /etc/netplan/*.yaml
+
+  183  netplan try
+
+  184  sudo nano /etc/netplan/*.yam
+
+  185  netplan try
+
+  186  sudo nano /etc/netplan/*.yaml
+
+  187  netplan try
+
+  188  sudo nano /etc/netplan/*.yaml
+
+  189  netplan try
+
+  190  sudo netplan apply
+
+  191  sudo nano /etc/netplan/01-network-manager-all.yaml
+
+  192  netplan try
+
+  193  sudo netplan apply
+
+  194  sudo nano /etc/netplan/01-network-manager-all.yaml
+
+  195  netplan try
+
+  196  sudo netplan apply
+
+  197  sudo apt install nginx -y
+
+  198  sudo apt install apache2 -y
+
+  199  sudo apt install libapache2-mod-php8.1 php8.1 -y
+
+  200  sudo apt install mysql-server-8.0 -y
+
+  201  sudo apt install php -y
+
+  202  sudo apt install nginx php-fpm
+
+  203  /etc/nginx/sites-available/default
+
+  204  sudo /etc/nginx/sites-available/default
+
+  205  cd /etc/nginx/sites-available/default
+
+  206  cd /etc/nginx/sites-available
+
+  207  ll
+
+  208  nano defalt
+
+  209  nano default 
+
+  210  sudo nano /etc/apache2/ports.conft
+
+  211  sudo nano /etc/apache2/ports.conf 
+
+  212  sudo nano default 
+
+  213  sudo systemctl restart nginx
+
+  214  cd /var/www/html
+
+  215  sudo nano index.php
+
+  216  sudo nano /etc/apache2/ports.conf 
+
+  217  cd /etc/nginx/sites-available
+
+  218  sudo nano default 
+
+  219  cd /run/php/
+
+  220  ll
+
+  221  cd /var/www/html/
+
+  222  ll
+
+  223  sudo nano index.php
+
+  224  sudo systemctl restart nginx
+
+  225  sudo systemctl reload nginx
+
+  226  cd /etc/apache2
+
+  227  ll
+
+  228  sudo nano sites-available/
+
+  229  sudo nano sites-available/000-default.conf 
+
+  230  sudo systemctl start apache2
+
+  231  sudo apt update
+
+  232  sudo /etc/nginx/
+
+  233  sudo /etc/nginx
+
+  234  cd /etc/nginx
+
+  235  ll
+
+  236  sudo nano nginx.conf 
+
+  237  sudo nano /etc/nginx/nginx.conf
+
+  238  sudo systemctl restart nginx
+
+  239  sudo nano /etc/nginx/nginx.conf
+
+  240  sudo systemctl restart nginx
+
+  241  sudo nano /etc/nginx/nginx.conf
+
+  242  sudo systemctl restart nginx
+
+  243  sudo nano /etc/apache2/sites-enabled/000-default.conf
+
+  244  systemctl status mysql
+
+  245  sudo mysql
+
+  246  show databases;
+
+  247  sudo mysql
+
+  248  sudo nano /etc/nginx/nginx.conf
+
+  249  sudo systemctl restart nginx
+
+  250  sudo nano /etc/nginx/nginx.conf
+
+  251  sudo nano /etc/nginx/sites-enebled/defalt
+
+  252  sudo nano /etc/nginx/sites-enebled/default
+
+  253  cd /etc/nginx
+
+  254  ll
+
+  255  cd sites-enabled/
+
+  256  ll
+
+  257  sudo nano default 
+
+  258  sudo systemctl restart nginx
+
+  259  sudo nano /etc/nginx/sites-enebled/default
+
+  260  sudo nginx -t
+
+  261  sudo nano /etc/nginx/sites-enebled/default
+
+  262  sudo nano default 
+
+  263  sudo nginx -t
+
+  264  sudo nano  /etc/nginx/nginx.conf
+
+  265  sudo nginx -t
+
+  266  sudo systemctl restart nginx
+
+  267  sudo apt install docker.io -y
+
+  268  doker --help
+
+  269  docker --help
+
+  270  sudo apt install docker -y
+
+  271  sudo apt install docker.io -y
+
+  272  docker --help
+
+  273  sudo autoremove docker
+
+  274  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-ce-cli
+
+  275  sudo apt install docker.io -y
+
+  276  mkdir wordpress && cd wordpress
+
+  277  mkdir nginx-conf
+
+  278  nano nginx-conf/nginx.conf
+
+  279  hostname
+
+  280  $ sudo hostname test.com
+
+  281  sudo hostname test.com
+
+  282  hostname
+
+  283  nano nginx-conf/nginx.conf
+
+  284  nano .env
+
+  285  nano docker-compose.yml
+
+  286  docker-compose up -d
+
+  287  sudo apt  install docker-compose
+
+  288  docker-compose up -d
+
+  289  sudo docker-compose up -d
+
+  290  nano docker-compose.yml
+
+  291  sudo docker-compose up -d
+
+  292  udo systemctl stop nginx
+
+  293  sudo systemctl stop nginx
+
+  294  sudo docker-compose up -d
+
+  295  sudo docker-compose ps
+
+  296  nano docker-compose.yml
+
+  297  sudo docker-compose ps
+
+  298  cd /etc/letsencrypt/
+
+  299  cd /etc/letsencrypt
+
+  300  nano nginx-conf/nginx.conf
+
+  301  sudo certbot certonly --apache -d test.com -d www.test.com
+
+  302  cerbot --help
+
+  303  sudo certbot certonly --apache -d test.com -d www.test.com
+
+  304  sudo docker run -d ubuntu
+
+  305  cat > Dockerfile
+
+  306  FROM ubuntu:20.04
+
+  307  RUN apt-get update
+
+  308  RUN apt-get install nginx -y
+
+  309  cat > Dockerfile
+
+  310  sudo docker build -t php_fpm .
+
+  311  sudo docker images
+
+  312  sudo install BuildKit
+
+  313  sudo Install Docker Engine
+
+  314  docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+
+  315  sudo docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mydb
+
+  316  sudo docker network create mynetwork
+
+  317  sudo docker run -d --name mariadb_container --network mynetwork -e MYSQL_ROOT_password mariadb:10.8
+
+  318  docker run -d --name phpmyadmin_container --network mynetwork -e PMA_ARBITRARY=1 -e PMA_HOST=mariadb_container -p 8080:80 phpmyadmin/phpmyadmin
+
+  319  sudo docker run -d --name phpmyadmin_container --network mynetwork -e PMA_ARBITRARY=1 -e PMA_HOST=mariadb_container -p 8080:80 phpmyadmin/phpmyadmin
+
+  320  docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb_container
+
+  321  sudo docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb_container
+
+  322  sudo docker inspect \
+
+  323  sudo docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb_container
+
+  324  sudo docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb_container
+
+  325  sudo docker ps
+
+  326  sudo docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb_container
+
+  327  sudo docker ps -a
+
+  328  sudo docker stop db
+
+  329  sudo docker start mariadb_container
+
+  330  sudo docker ps 
+
+  331  sudo docker ps -a
+
+  332  sudo docker stop $(sudo docker ps -q)
+
+  333  sudo docker rm $(sudo docker ps -q -a)
+
+  334  sudo systemctl stop docker
+
+  335  sudo systemctl stop docker.socket
+
+  336  sudo systemctl start docker
+
+  337  sudo docker network create mynetwork
+
+  338  docker run -d --name mariadb_container --network mynetwork -e MYSQL_ROOT_PASSWORD=password mariadb:10.8
+
+  339  sudo docker network create mynetwork
+
+  340  sudo docker run -d --name mariadb_container --network mynetwork -e MYSQL_ROOT_PASSWORD=password mariadb:10.8
+
+  341  sudo docker run -d --name phpmyadmin_container --network mynetwork -e PMA_ARBITRARY=1 -e PMA_HOST=mariadb_container -p 8080:80 phpmyadmin/phpmyadmin
+
+  342  sudo docker ps
+
+  343  sudo docker inspect   -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadb_container
+
+  344  clear
+
+  345  cd ~
+
+  346  mkdir teting
+
+  347  cd testing
+
+  348  cd teting
+
+  349  ls -l
+
+  350  nano test_skript.sh
+
+  351  bash ./test_skript.sh 
+
+  352  pwd
+
+  353  bash ./test_skript.sh /home/plantator/teting
+
+  354  ls -l
+
+  355  nano test_skript.sh
+
+  356  touch test1.txt
+
+  357  sudo su
+
+  358  ls -l
+
+  359  bash ./test_skript.sh /home/plantator/teting /home/plantator/teting
+
+  360  ls -l
+
+  361  nano test_skript.sh
+
+  362  mkdir testfolder
+
+  363  mkdir testfolder/bin
+
+  364  cp /bin/bash testfolder/bin
+
+  365  ldd /bin/bash
+
+  366  mkdir testfolder/lib
+
+  367  mkdir testfolder/lib64
+
+  368  cp /lib/x86_64-linux-gnu/libtinfo.so.6 testfolder/lib
+
+  369  cp /lib/x86_64-linux-gnu/libc.so.6 testfolder/lib
+
+  370  cp /lib64/ld-linux-x86-64.so.2 testfolder/lib64/
+
+  371  chroot testfolder/
+
+  372  sudo chroot testfolder/
+
+  373  cp /bib/ls tesfolder//bin
+
+  374  cp /bib/ls tesfolder/bin
+
+  375  cp /bin/ls tesfolder/bin
+
+  376  cp /bin/ls tesfolder//bin
+
+  377  cp /bin/ls testfolder/bin
+
+  378  ldd /bin/ls
+
+  379  cp libselinux.so.1 => /lib/x86_64-linux-gnu/libselinux.so.1 testfolder/lib/
+
+  380  cp /lib/x86_64-linux-gnu/libselinux.so.1 testfolder/lib/
+
+  381  cp /lib/x86_64-linux-gnu/libc.so.6 testfolder/lib/
+
+  382  cp /lib/x86_64-linux-gnu/libpcre2-8.so.0 testfolder/lib/
+
+  383  cp /lib64/ld-linux-x86-64.so.2 testfolder/lib64/
+
+  384  sudo chroot testfolder/
+
+  385  ls -l /proc/$$/ns
+
+  386  lsns
+
+  387  ip netns list
+
+  388  sudo ip netns testns
+
+  389  sudo ip netns add testns
+
+  390  ip netns list
+
+  391  sudo ip netns exec testns bash
+
+  392  ip a
+
+  393  ip link add veth0 type veth peer name veth1
+
+  394  sudo ip link add veth0 type veth peer name veth1
+
+  395  sudo ip link set veth1 netns testns
+
+  396  ip 
+
+  397  ip a
+
+  398  sudo ip addr add 10.0.0.1/24 dev veth0
+
+  399  ip a
+
+  400  sudo ip link set dev veth0 up
+
+  401  ip a
+
+  402  sudo ip netns exec testns bash
+
+  403  sudo unshare --net /bin/bash
+
+  404  sudo unshare --pid --net --fork --mount-proc //bin/bash
+
+  405  sudo unshare --pid --net --fork --mount-proc --mount //bin/bash
+
+  406  sudo apt install cgroup-tools
+
+  407  sudo unshare --for --pid --mount-proc bash
+
+  408  cgexec -g memory:mytestgroup bash
+
+  409  sudo cgexec -g memory:mytestgroup bash
+
+  410  sudo install lxc lxc-templates
+
+  411  sudo apt install lxc lxc-templates
+
+  412  sudo apt-get install lxc debootstrap bridge-utils lxc-templates
+
+  413  sudo lxc-create -n test123 -t ununtu
+
+  414  sudo lxc-create -n test123 -t ubuntu
+
+  415  lxc-ls
+
+  416  sudo lxc-ls
+
+  417  sudo lxc-stop test123
+
+  418  nano /var/lib/lxc/test123/config
+
+  419  sudo nano /var/lib/lxc/test123/config
+
+  420  free -m
+
+  421  sudo lxc-start test123
+
+  422  sudo lxc-attach test123
+
+  423  lxc-stop test123
+
+  424  sudo lxc-stop test123
+
+  425  sudo nano /var/lib/lxc/test123/config
+
+  426  sudo lxc-start test123
+
+  427  sudo lxc-attach test123
+
+  428  sudo ls /sys/fs/cgroup/lxc.payload.test123
+
+  429  sudo lxc-ls -f
+
+  430  ip a
+
+  431  sudo lxc-stop test123
+
+  432  sudo lxc-destroy test123
+
+  433  sudo lxc-create -n test1 -t ubuntu
+
+  434  sudo lxc-create -n test2 -t ubuntu
+
+  435  lxc-ls -f
+
+  436  sudo lxc-ls -f
+
+  437  sudo lxc-start test1
+
+  438  sudo lxc-start test2
+
+  439  sudo lxc-ls -f
+
+  440  sudo lxc-attach test1
+
+  441  sudo lxc-attach test2
+
+  442  sudo nano /var/lib/lxc/test1
+
+  443  sudo nano /var/lib/lxc/test1/config
+
+  444  sudo nano /var/lib/lxc/test2/config
+
+  445  sudo lxc-ls -f
+
+  446  lxc-ls -f
+
+  447  sudo lxc-ls -f
+
+  448  lxc stop test1
+
+  449  lxc -stop test1
+
+  450  lxc-stop test1
+
+  451  lxc-start test1
+
+  452  sudo lxc-start test1
+
+  453  sudo lxc-start test2
+
+  454  sudo nano /var/lib/lxc/test1/config
+
+  455  sudo nano /var/lib/lxc/test2/config
+
+  456  sudo lxc-start test1
+
+  457  sudo lxc-start test2
+
+  458  sudo lxc-ls -f
+
+  459  lxc-stop test1
+
+  460  lxc-stop test2
+
+  461  sudo lxc-stop test1
+
+  462  sudo lxc-stop test2
+
+  463  lxc-stop test2
+
+  464  sudo lxc-start test1
+
+  465  sudo lxc-start test2
+
+  466  sudo lxc-ls -f
+
+  467  sudo ping 10.0.3.25
+
+  468  sudo ping 10.0.3.35
+
+  469  sudo lxc-execute -n test1 /bin/ls
+
+  470  lxc-execute -n test1 /bin/ls
+
+  471  sudo lxc-attach -n test1
+
+  472  ip a
+
+  473  docer
+
+  474  docker
+
+  475  docker network
+
+  476  docker network ls
+
+  477  sudo -s
+
+  478  docker network ls
+
+  479  docker swarm  init  --advertise-addr 1.1.90.90
+
+  480  docker swarm init
+
+  481  sudo -s
+
+  482  cat > Pets.txt
+
+  483  cat > Pack animal.txt
+
+  484  cat > Pack_animal.txt
+
+  485  cat Pets.txt Pack_Animals.txt > HumanFriends.txt
+
+  486  cat Pets.txt Pack_Animal.txt > HumanFriends.txt
+
+  487  cat Pets.txt Pack_animal.txt > HumanFriends.txt
+
+  488  cat HumanFriends.txt
+
+  489  mv HumanFriends.txt Human_Friends.txt
+
+  490  cat Human_Friends.txt
+
+  491  mkdir FriendsDirectory
+
+  492  mv Human_Friends.txt FriendsDirectory/
+
+  493  sudo apt-get install software-properties-common
+
+  494  sudo add-apt-repository 'deb http://repo.mysql.com/apt/ubuntu/ bionic mysql-8.0'
+
+  495  sudo apt-get update
+
+  496  sudo apt-get install mysql-server
+
+  497  sudo dpkg -i package_name.deb
+
+  498  sudo apt download zip
+
+  499  sudo dpkg -i zip_3.0-12build2_amd64.deb
+
+  500  sudo apt download nginx
+
+  501  sudo dpkg -i nginx_1.18.0-6ubuntu14.4_amd64.deb
+
+  502  sudo dpkg -r nginx
+
+  503  history > Ionov_Gennadiy_Vladimirovich_Group5823_data_07_07_2024.txt
